@@ -88,7 +88,7 @@ notebook>=6.4
 1. **Data preparation:**
    - Download `secom.data` and `secom_labels.data` from the UCI repository into `data/raw/`.
 2. **Notebook walkthrough:**
-   - Follow the cells in `01_secom_anomaly.ipynb` (labeled Cell 1–Cell 19) to reproduce the analysis.
+   - Follow the cells in `01_secom_anomaly.ipynb` to reproduce the analysis.
 3. **Generate final reports:**
    - The PDF and PPTX can be generated via the `scripts/generate_report.py` script or manually by running the relevant Python cells.
 
@@ -96,8 +96,6 @@ notebook>=6.4
 
 ## 📊 Outputs
 - **Model pipeline:** `models/secom_iforest_pipeline.joblib`
-- **Final report PDF:** `Final_Project_Report.pdf`
-- **Presentation PPTX:** `SECOM_Anomaly_Detection_Presentation.pptx`
 
 ---
 
